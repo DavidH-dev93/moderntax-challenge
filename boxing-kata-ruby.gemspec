@@ -1,11 +1,11 @@
 # coding: utf-8
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'boxing/kata/ruby/version'
+require 'boxing/kata/version'
 
 Gem::Specification.new do |spec|
   spec.name          = "boxing-kata-ruby"
-  spec.version       = Boxing::Kata::Ruby::VERSION
+  spec.version       = Boxing::Kata::VERSION
   spec.authors       = ["Jim Kirkbride"]
   spec.email         = ["jim.kirkbride@beam.dental"]
 

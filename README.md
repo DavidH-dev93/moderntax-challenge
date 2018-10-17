@@ -57,35 +57,35 @@ Example Input File
 The input file is a CSV file which contains the following fields:
 
 ```
-id,first_name,last_name,brush_color,primary_insured_id,contract_effective_at,address_line_1,address_line_2,city,state,zip,contract_perks_interval
-1,Han,Solo,blue,,2019-01-01,1 Millenium Falcon Way,,Mos Eisley,UT,84101,3
-2,Anakin,Skywalker,blue,,2019-03-15,1000 Corescant Blvd,Apt B,Metro City,NY,10001,6
-3,Padme,Skywalker,pink,,,,,,,,
-4,Luke,Skywalker,blue,,,,,,,,
-5,Leia,Skywalker,green,,,,,,,,
-6,Cee,Three-Pio,blue,,2019-04-01,500 Tatooine Dr,,Mos Eisley,UT,84101,6
-7,Artoo,Deetoo,blue,6,,750 Naboo St,,Lake Country,MN,55101,
+id,first_name,last_name,brush_color,primary_insured_id,contract_effective_at,address,contract_perks_interval
+1,Han,Solo,blue,,2019-01-01,"The Millenium Falcon",3
+2,Anakin,Skywalker,blue,,2019-03-15,"Corescant",6
+3,Padme,Skywalker,pink,,,"Corescant",
+4,Luke,Skywalker,blue,,,"Corescant",
+5,Leia,Skywalker,green,,,"Corescant",
+6,Cee,Three-Pio,blue,,2019-04-01,"Tatooine",6
+7,Artoo,Deetoo,blue,6,,"Naboo",
 ```
 
 Example Output File
 ------------------
 
 ```
-addressee,address_line_1,address_line_2,city,state,zip,brushes_blue,brushes_green,brushes_pink,replacement_heads_blue,replacement_heads_green,replacement_heads_pink,product_type,mail_class,shipping_date
-Han Solo,1 Millenium Falcon Way,,Mos Eisley,UT,84101,1,0,0,0,0,0,starter,priority,2019-01-01
-Han Solo,1 Millenium Falcon Way,,Mos Eisley,UT,84101,0,0,0,1,0,0,refill,first,2019-04-01
-Han Solo,1 Millenium Falcon Way,,Mos Eisley,UT,84101,0,0,0,1,0,0,refill,first,2019-07-01
-Han Solo,1 Millenium Falcon Way,,Mos Eisley,UT,84101,0,0,0,1,0,0,refill,first,2019-10-01
-Anakin Skywalker,1000 Corescant Blvd,Apt B,Metro City,NY,10001,2,0,0,2,0,0,starter,priority,2019-03-15
-Anakin Skywalker,1000 Corescant Blvd,Apt B,Metro City,NY,10001,0,1,1,0,1,1,starter,priority,2019-03-15
-Anakin Skywalker,1000 Corescant Blvd,Apt B,Metro City,NY,10001,0,0,0,4,0,0,refill,priority,2019-09-15
-Anakin Skywalker,1000 Corescant Blvd,Apt B,Metro City,NY,10001,0,0,0,0,2,2,refill,priority,2019-09-15
-Cee ThreePio,500 Tatooine Dr,,Mos Eisley,UT,84101,1,0,0,1,0,0,starter,priority,2019-04-01
-Cee ThreePio,500 Tatooine Dr,,Mos Eisley,UT,84101,0,0,0,2,0,0,starter,priority,2019-07-01
-Cee ThreePio,500 Tatooine Dr,,Mos Eisley,UT,84101,0,0,0,2,0,0,starter,priority,2019-10-01
-Cee ThreePio,500 Tatooine Dr,,Mos Eisley,UT,84101,0,0,0,2,0,0,starter,priority,2020-01-01
-Artoo Deetoo,750 Naboo St,,Lake Country,MN,55101,1,0,0,1,0,0,starter,priority,2019-04-01
-Artoo Deetoo,750 Naboo St,,Lake Country,MN,55101,0,0,0,2,0,0,starter,priority,2019-07-01
-Artoo Deetoo,750 Naboo St,,Lake Country,MN,55101,0,0,0,2,0,0,starter,priority,2019-10-01
-Artoo Deetoo,750 Naboo St,,Lake Country,MN,55101,0,0,0,2,0,0,starter,priority,2020-01-01
+addressee,address,brushes_blue,brushes_green,brushes_pink,replacement_heads_blue,replacement_heads_green,replacement_heads_pink,product_type,mail_class,shipping_date
+Han Solo,"The Millenium Falcon",1,0,0,0,0,0,starter,priority,2019-01-01
+Han Solo,"The Millenium Falcon",0,0,0,1,0,0,refill,first,2019-04-01
+Han Solo,"The Millenium Falcon",0,0,0,1,0,0,refill,first,2019-07-01
+Han Solo,"The Millenium Falcon",0,0,0,1,0,0,refill,first,2019-10-01
+Anakin Skywalker,"Corescant",2,0,0,2,0,0,starter,priority,2019-03-15
+Anakin Skywalker,"Corescant",0,1,1,0,1,1,starter,priority,2019-03-15
+Anakin Skywalker,"Corescant",0,0,0,4,0,0,refill,priority,2019-09-15
+Anakin Skywalker,"Corescant",0,0,0,0,2,2,refill,priority,2019-09-15
+Cee ThreePio,"Tatooine",1,0,0,1,0,0,starter,priority,2019-04-01
+Cee ThreePio,"Tatooine",0,0,0,2,0,0,starter,priority,2019-07-01
+Cee ThreePio,"Tatooine",0,0,0,2,0,0,starter,priority,2019-10-01
+Cee ThreePio,"Tatooine",0,0,0,2,0,0,starter,priority,2020-01-01
+Artoo Deetoo,"Naboo",1,0,0,1,0,0,starter,priority,2019-04-01
+Artoo Deetoo,"Naboo",0,0,0,2,0,0,starter,priority,2019-07-01
+Artoo Deetoo,"Naboo",0,0,0,2,0,0,starter,priority,2019-10-01
+Artoo Deetoo,"Naboo",0,0,0,2,0,0,starter,priority,2020-01-01
 ```

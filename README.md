@@ -60,9 +60,9 @@ The input file is a CSV file which contains the following fields:
 id,first_name,last_name,brush_color,primary_insured_id,contract_effective_at,address,contract_perks_interval
 1,Han,Solo,blue,,2019-01-01,"The Millenium Falcon",3
 2,Anakin,Skywalker,blue,,2019-03-15,"Corescant",6
-3,Padme,Skywalker,pink,,,"Corescant",
-4,Luke,Skywalker,blue,,,"Corescant",
-5,Leia,Skywalker,green,,,"Corescant",
+3,Padme,Skywalker,pink,2,,"Corescant",
+4,Luke,Skywalker,blue,2,,"Corescant",
+5,Leia,Skywalker,green,2,,"Corescant",
 6,Cee,Three-Pio,blue,,2019-04-01,"Tatooine",6
 7,Artoo,Deetoo,blue,6,,"Naboo",
 ```

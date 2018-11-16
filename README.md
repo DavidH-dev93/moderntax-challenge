@@ -16,6 +16,8 @@ _I want to add family member brush preferences_<br>
 
 The shipping manager can import the family data.  When the system receives the input file then the brush color counts will be displayed in the format below.
 
+Note: An example input file is provided at the bottom of this document.
+
 ```
 BRUSH PREFERENCES
 blue: 2

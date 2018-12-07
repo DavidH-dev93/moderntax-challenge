@@ -2,6 +2,11 @@ require "boxing/kata/version"
 
 module Boxing
   module Kata
-    # Your code goes here...
+
+    def self.report
+      puts "Boxing Kata output (optional)"
+
+      # Starting point for your code...
+    end
   end
 end

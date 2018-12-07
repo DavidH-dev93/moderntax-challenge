@@ -8,16 +8,13 @@ This kata involves building the brains of a boxing system which will determine h
 Setup
 -----
 
-Steps:
-
 ```
 $ bundle install
 $ bin/rspec
 $ bin/boxing-kata
 ```
 
-It is intended that the kata be implemented through unit tests, but feel
-free to provide output to console through `bin/boxing-kata` if desired.
+Implement the kata be through writing unit tests. Feel free to produce console output through `bin/boxing-kata` if visualization is desired.
 
 Example Input File
 ------------------

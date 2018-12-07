@@ -54,8 +54,7 @@ _As a Beam Shipping Manager_<br>
 _In order to ship perks_<br>
 _I want to fill starter boxes_<br>
 
-Now that member data has been imported the shipping manager can begin filling boxes. A family should receive starter boxes with a brush and replacement brush head for each of their preferred colors. Each member will receive one brush and one replacement head. A starter box can contain a maximum of 2 brushes and 2 replacement heads in any combination of colors. When the shipping manager presses
-the starter boxes button then then a number of boxes are output.  Using the brush preferences example above box output will be generated in the following format:
+Now that member data has been imported the shipping manager can begin filling boxes. A family should receive starter boxes with a brush and replacement brush head for each of their preferred colors. Each member will receive one brush and one replacement head. A starter box can contain a maximum of 2 brushes and 2 replacement heads in any combination of colors. When the shipping manager presses the starter boxes button then a number of boxes are output.  Using the brush preferences example above box output will be generated in the following format:
 
 ```
 STARTER BOX

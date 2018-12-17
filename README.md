@@ -14,7 +14,11 @@ $ bin/rspec
 $ bin/boxing-kata
 ```
 
-Implement the kata be through writing unit tests. Feel free to produce console output through `bin/boxing-kata` if visualization is desired.
+Implement the kata be through writing unit tests. Feel free to produce console output if visualization is desired. A starting point has been provided:
+
+```
+  `bin/boxing-kata <<spec/fixtures/family_preferences.csv 
+```
 
 Example Input File
 ------------------

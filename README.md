@@ -11,10 +11,9 @@ Setup
 ```
 bundle install
 bin/rspec
-bin/boxing-kata
 ```
 
-Implement the kata be through writing unit tests. Feel free to produce console output if visualization is desired. A starting point has been provided:
+An entry point has been provided:
 
 ```
 ruby ./bin/boxing-kata <spec/fixtures/family_preferences.csv

@@ -8,6 +8,9 @@
 /spec/reports/
 /tmp/
 
+.idea
+*.iml
+
 # rspec failure tracking
 .rspec_status
 .byebug_history

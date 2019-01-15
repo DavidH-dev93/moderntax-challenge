@@ -25,7 +25,7 @@ An entry point has been provided:
 ruby ./bin/boxing-kata <spec/fixtures/family_preferences.csv
 ```
 
-Submitting the Kata
+Submitting your work to Beam
 --------------------
 
 Once you're happy with your submission, you can send it back in one of two formats; either as a git bundle or a zip file.  

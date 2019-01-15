@@ -7,7 +7,7 @@ This kata involves building the brains of a boxing system which will determine h
 
 Instructions
 ------------
-Please read through the user stories below and implement the functionality to complete them according to their requirements.  The design is entirely up to you as long as the solution can be run via the entrypoint in the bin directory (see below). 
+Please read through the user stories below and implement the functionality to complete them according to their requirements.  The design is entirely up to you as long as the solution can be run via the entry point in the bin directory (see below). 
 
 We ask that you please add tests and commit your work to git as you go.
 
@@ -30,7 +30,7 @@ Submitting your work to Beam
 
 Once you're happy with your submission, you can send it back in one of two formats; either as a git bundle or a zip file.  
 
-To create the git bundle simply:
+To create the git bundle simply execute:
 
 ```bash
 cd boxing-kata

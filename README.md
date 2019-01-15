@@ -3,7 +3,13 @@ The Boxing Kata
 
 Everyone who has dental insurance through Beam receives perks in the form of electric toothbrushes, replacement brush heads, and product (toothpaste and floss). These perks are provided at the start of an insurance contract and then semi-frequently through the life of the contract.  Each family member gets to choose a toothbrush color, and will receive replacement toothbrush heads of the same color.
 
-This kata involves building the brains of a boxing system which will determine how the perks are boxed up and shipped. Given a family's brush color preferences then the system will generate a description of how the boxes should be filled.  A shipping manager will be able to load data for a family, create starter and refill boxes, and perform other operations in real-time.  The focus of this kata should be building the API of the system rather than the UI. In order to make it easier to maintain and extend the functionality we ask that you please add tests as you go.
+This kata involves building the brains of a boxing system which will determine how the perks are boxed up and shipped. Given a family's brush color preferences then the system will generate a description of how the boxes should be filled.  A shipping manager will be able to load data for a family, create starter and refill boxes, and perform other operations in real-time.  The focus of this kata should be building the API of the system rather than the UI. 
+
+Instructions
+------------
+Please read through the user stories below and implement the functionality to complete them according to their requirements.  The design is entirely up to you as long as the solution can be run via the entry point in the bin directory (see below). 
+
+We ask that you please add tests and commit your work to git as you go.
 
 Setup
 -----
@@ -18,6 +24,20 @@ An entry point has been provided:
 ```
 ruby ./bin/boxing-kata <spec/fixtures/family_preferences.csv
 ```
+
+Submitting your work to Beam
+--------------------
+
+Once you're happy with your submission, you can send it back in one of two formats; either as a git bundle or a zip file.  
+
+To create the git bundle simply execute:
+
+```bash
+cd boxing-kata
+git bundle create boxing-kata.bundle <YOUR BRANCH NAME HERE>
+```
+
+This will create a `.bundle` file which contains the entire git repository in binary form, so you can easily send it as an attachment.  Alternately you could zip the project instead.
 
 Example Input File
 ------------------

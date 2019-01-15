@@ -34,7 +34,7 @@ To create the git bundle simply:
 
 ```bash
 cd boxing-kata
-git bundle create boxing-kata.bundle master
+git bundle create boxing-kata.bundle <YOUR BRANCH NAME HERE>
 ```
 
 This will create a `.bundle` file which contains the entire git repository in binary form, so you can easily send it as an attachment.  Alternately you could zip the project instead.

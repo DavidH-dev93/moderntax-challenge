@@ -3,7 +3,7 @@ The Boxing Kata
 
 Everyone who has dental insurance through Beam receives perks in the form of electric toothbrushes, replacement brush heads, and product (toothpaste and floss). These perks are provided at the start of an insurance contract and then semi-frequently through the life of the contract.  Each family member gets to choose a toothbrush color, and will receive replacement toothbrush heads of the same color.
 
-This kata involves building the brains of a boxing system which will determine how the perks are boxed up and shipped. Given a family's brush color preferences then the system will generate a description of how the boxes should be filled.  A shipping manager will be able to load data for a family, create starter and refill boxes, and perform other operations in real-time.  The focus of this kata should be building the API of the system rather than the UI. 
+This kata involves building the brains of a boxing system which will determine how the perks are boxed up and shipped. Given a family's brush color preferences then the system will generate a description of how the boxes should be filled.  A shipping manager will be able to load data for a family, create starter and refill boxes, and perform other operations in real-time.  The focus of this kata should be building a library for the system rather than a UI. 
 
 Instructions
 ------------

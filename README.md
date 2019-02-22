@@ -170,7 +170,7 @@ _As a Beam shipping manager_<br>
 _In order to ship paste kits_<br>
 _I want to add paste kits to the boxes_<br>
 
-When a brush or replacement head is shipped a paste kit is also shipped which contains toothpaste and floss. A paste kit weighs 7.6 oz which will impact on the mail class choice.
+For each brush or replacement head that is shipped a paste kit is also shipped which contains toothpaste and floss. A paste kit weighs 7.6 oz which will impact on the mail class choice.
 
 Example for a starter box:
 ```

@@ -28,7 +28,7 @@ ruby ./bin/boxing-kata <spec/fixtures/family_preferences.csv
 Submitting your work to Beam
 --------------------
 
-Please include a `.ruby_version` file with your submission. There are differences between versions that can be significant to your application's runtime versus your reviewer's installed ruby version.
+Please include a `.ruby-version` file with your submission. There are differences between versions that can be significant to your application's runtime versus your reviewer's installed ruby version.
 
 Once you're happy with your submission, you can send it back in one of two formats, as a git bundle or as a zip file.
 

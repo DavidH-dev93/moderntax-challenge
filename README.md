@@ -28,13 +28,13 @@ ruby ./bin/boxing-kata <spec/fixtures/family_preferences.csv
 Submitting your work to Beam
 --------------------
 
-Please include a .ruby_version file with your submission. There are differences between versions that can be significant to your application's runtime versus your reviewer's installed ruby version.
+Please include a `.ruby_version` file with your submission. There are differences between versions that can be significant to your application's runtime versus your reviewer's installed ruby version.
 
 Once you're happy with your submission, you can send it back in one of two formats, as a git bundle or as a zip file.
 
 To create the git bundle simply execute:
 
-```
+```bash
 cd boxing-kata
 git bundle create boxing-kata.bundle <YOUR BRANCH NAME HERE>
 ```
@@ -147,7 +147,7 @@ _As a Beam shipping manager_<br>
 _In order to save money on shipping_<br>
 _I want to determine mail class_<br>
 
-In order to manage shipping costs and to deliver perks quickly we want to determine the mail class of boxes. Mail class is based on the weight of the box. Boxes that weigh 16oz or more have a class of "priority."  Boxes that weigh less than 16oz have a mail class of "first." Weight is calculated as such: 1 brush weighs 9oz, and 1 replacement head weighs 1oz. When boxes are generated, then each box should have a line appended with its mail class.
+In order to manage shipping costs and to deliver perks quickly we want to determine the mail class of boxes. Mail class is based on the weight of the box. Boxes that weigh 16oz or more have a class of "priority".  Boxes that weigh less than 16oz have a mail class of "first". Weight is calculated as such: 1 brush weighs 9oz, and 1 replacement head weighs 1oz. When boxes are generated, then each box should have a line appended with its mail class.
 
 Example for a starter box:
 ```

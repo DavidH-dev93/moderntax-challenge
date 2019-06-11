@@ -177,7 +177,7 @@ For each brush or replacement head that is shipped a paste kit is also shipped w
 Example for a starter box:
 ```
 STARTER BOX
-1 pink brushes
+1 pink brush
 1 pink replacement head
 1 paste kit
 Schedule: 2018-01-01

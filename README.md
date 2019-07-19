@@ -11,7 +11,7 @@ Please read through the user stories below and implement the functionality to co
 
 We ask that you please add tests and commit your work to git frequently as you go.
 
-Please add a section explaining the technical decision making involved in designing your solution. What options were you considering at various levels (eg. tech stack choice, libraries, and design, as applicable) and what where the tradeoffs in choosing one option over another? Feel free to include this section here in this README.
+Please add a section explaining the technical decision making involved in designing your solution. What options were you considering at various levels (eg. tech stack choice, libraries, and design, as applicable) and what were the tradeoffs in choosing one option over another? Feel free to include this section here in this README.
 
 Setup
 -----

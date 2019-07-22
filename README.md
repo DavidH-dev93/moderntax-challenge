@@ -9,7 +9,7 @@ Instructions
 ------------
 Please read through the user stories below and implement the functionality to complete them according to their requirements. The design is entirely up to you as long as the solution can be run via the entry point in the bin directory (see below).
 
-We ask that you please add tests and commit your work to git frequently as you go.
+Beam firmly believes in testing as a practice and as such we ask that you please add tests. We also ask that you commit your work to git frequently as you go.
 
 Setup
 -----

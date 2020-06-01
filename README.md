@@ -44,6 +44,9 @@ git bundle create boxing-kata.bundle <YOUR BRANCH NAME HERE>
 
 This will create a `.bundle` file which contains the entire git repository in binary form, so you can easily send it as an attachment.  Alternately, you could send the project as a zip file.
 
+To ensure that our review of your kata remains as unbiased as possible, your submission will be anonymized before it is reviewed. To help us with this process, please double check that any personally identifiable information, such as your name or email address, is removed from your code, readme or any commit messages. Your author and committer information will be scrubbed by our anonymizing process.
+
+
 Example Input File
 ------------------
 The input file is a CSV file which contains the following fields:

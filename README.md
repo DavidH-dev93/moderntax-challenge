@@ -7,44 +7,61 @@ This kata involves building the brains of a boxing system which will determine h
 
 Instructions
 ------------
-Please read through the user stories below and implement the functionality to complete them according to their requirements. The design is entirely up to you as long as the solution can be run via the entry point in the bin directory (see below).
+Please read through the user stories below and implement the functionality to complete them according to their requirements. The design is entirely up to you as long as the solution can be run via the entry point in the bin directory (see [Setup](#setup)). We also ask that you commit your work to git frequently as you go.
 
-Beam firmly believes in testing as a practice and as such we ask that you please add tests. We also ask that you commit your work to git frequently as you go.
+### Evaluation criteria
+As there are often trade-offs when crafting a solution, the following is the priority of what we are considering when reviewing your kata:
 
-Please add a section explaining the technical decision making involved in designing your solution. What options were you considering at various levels (eg. tech stack choice, libraries, and design, as applicable) and what were the tradeoffs in choosing one option over another? Feel free to include this section here in this README.
+- **Functionality:** The solution should fulfill the requirements and work correctly. Please feel free to reach out if you have questions about the provided user stories.
+- **Testing:** Beam firmly believes in testing as a practice and as such we ask that you add tests. We prefer to see code that has good test coverage.
+- **Structure:** Well-factored code is easier to reason about and maintain. We prefer to see good separation of concerns in the architecture.
+- **Idiomatic code:** Along similar lines, code that adopts the best practices, idiom and conventions of the language/framework helps with readability and maintainability.
+
+### Additional sections to include
+These sections will help us understand your thought process and workflow while we review your solution. Feel free to add these sections to this README or in a separate file. 
+
+- **Technical decision making:** Please add a section explaining the technical decision making involved in designing your solution. What options were you considering at various levels (eg. tech stack choice, libraries, and design, as applicable) and what were the trade-offs in choosing one option over another?
+- **Instructions on running your code:** As you decide on the tools to build the solution, please add a section letting us know how to run your code and tests if it is different from the provided [setup](#setup).
 
 Setup
 -----
 
-```
-bundle install
-bin/rspec
+Install dependencies with the following command:
+
+```bash
+$ bundle install
 ```
 
-An entry point has been provided:
+The `rspec` testing framework has been installed for you, and tests can be run with the following command:
 
+```bash
+$ bin/rspec
 ```
-ruby ./bin/boxing-kata <spec/fixtures/family_preferences.csv
+
+If you would prefer to not use `rspec` for your tests, or have included non-rspec ones, please add instructions on how to run them. We'd love to hear your thought process behind that decision as well! (see [additional sections](#additional-sections-to-include))
+
+An entry point has been provided for running the Kata:
+
+```bash
+$ ruby ./bin/boxing-kata <spec/fixtures/family_preferences.csv
 ```
 
 Submitting your work to Beam
 --------------------
 
-For ease of evaluation, we require that this kata is completed using the 2.7.0 version of ruby. 
-This has already been set in the `.ruby-version` file and, for reinforcement, in the gem specifications as well. Please make sure to complete your kata using this version. 
+For ease of evaluation, we require that this kata is completed using the 2.7.0 version of ruby. This has already been set in the `.ruby-version` file and, for reinforcement, in the gem specifications as well. Please make sure to complete your kata using this version. 
 
-Once you're happy with your submission, you can send it back in one of two formats, as a git bundle or as a zip file.
+Once you're happy with your submission ([evaluation criteria](#evaluation-criteria), [additional sections](#additional-sections-to-include)), you can send it back in one of two formats, as a git bundle or as a zip file.
 
-To create the git bundle simply execute:
+To create the git bundle simply execute the following from the root of the kata:
 
 ```bash
-cd boxing-kata
-git bundle create boxing-kata.bundle <YOUR BRANCH NAME HERE>
+$ git bundle create boxing-kata.bundle <YOUR BRANCH NAME HERE>
 ```
 
 This will create a `.bundle` file which contains the entire git repository in binary form, so you can easily send it as an attachment.  Alternately, you could send the project as a zip file.
 
-To ensure that our review of your kata remains as unbiased as possible, your submission will be anonymized before it is reviewed. To help us with this process, please double check that any personally identifiable information, such as your name or email address, is removed from your code, readme or any commit messages. Your author and committer information will be scrubbed by our anonymizing process.
+To ensure that our review of your kata remains as unbiased as possible, your submission will be anonymized before it is reviewed. To help us with this process, **please double check that any personally identifiable information, such as your name or email address, is removed from your code, readme or any commit messages**. Your author and committer information will be scrubbed by our anonymizing process.
 
 
 Example Input File

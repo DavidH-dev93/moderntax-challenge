@@ -6,8 +6,7 @@ require 'boxing/kata/version'
 Gem::Specification.new do |spec|
   spec.name          = "boxing-kata-ruby"
   spec.version       = Boxing::Kata::VERSION
-  spec.authors       = ["Jim Kirkbride"]
-  spec.email         = ["jim.kirkbride@beam.dental"]
+  spec.authors       = ["Engineers @ Beam Dental"]
 
   spec.summary       = "The Boxing Kata"
   spec.description   = "A kata in Ruby for determining how to box and ship dental perks."

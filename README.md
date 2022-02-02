@@ -43,7 +43,7 @@ If you would prefer to not use `rspec` for your tests, or have included non-rspe
 An entry point has been provided for running the Kata:
 
 ```bash
-$ ruby ./bin/boxing-kata <spec/fixtures/family_preferences.csv
+$ ruby ./bin/boxing-kata spec/fixtures/family_preferences.csv
 ```
 
 Submitting your work to Beam

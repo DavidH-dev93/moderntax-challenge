@@ -7,7 +7,7 @@ This kata involves building the brains of a boxing system which will determine h
 
 Instructions
 ------------
-Please read through the user stories below and implement the functionality to complete them according to their requirements. The design is entirely up to you as long as the solution can be run via the entry point in the bin directory (see [Setup](#setup)). We also ask that you commit your work to git frequently as you go.
+Please read through the user stories below and implement the functionality to complete them according to their requirements. We've provided a structure for you, as well as a command line interface. Feel free to deviate from the existing structure as you please. We also ask that you commit your work to git frequently as you go.
 
 ### Evaluation criteria
 As there are often trade-offs when crafting a solution, the following is the priority of what we are considering when reviewing your kata:
@@ -89,6 +89,7 @@ _In order to ship perks_<br>
 _I want to view family member brush preferences_<br>
 
 To begin the boxing process the shipping manager must import family data.  When the system receives the input file, then the brush color counts will be displayed in the format below.
+The CsvParser class skeleton provided has methods you can use to get started.
 
 ```
 BRUSH PREFERENCES
@@ -103,6 +104,7 @@ _In order to ship perks_<br>
 _I want to fill starter boxes_<br>
 
 Now that member data has been imported, the shipping manager can begin filling boxes. Each family member will receive one brush and one replacement head. Both the brush and the replacement head must be in the family member's preferred color. A starter box can contain a maximum of 2 brushes and 2 replacement heads in any combination of colors.
+The Boxer class has some skeleton methods you can use to get started, and operates on the output of the CsvParser class.
 
 When the shipping manager presses the starter boxes button, then a number of boxes are output.  Using the brush preferences example above, box output will be generated in the following format:
 
@@ -122,6 +124,8 @@ STARTER BOX
 
 If no family preferences have been entered then the message `NO STARTER BOXES GENERATED` should be displayed.
 
+We've provided a skeleton BoxPrinter class that you can use to get started printing the output for a set of boxes.
+
 **Refills**
 
 _As a Beam Shipping Manager_<br>
@@ -140,6 +144,9 @@ REFILL BOX
 ```
 
 If no starter boxes have been generated, then the message `PLEASE GENERATE STARTER BOXES FIRST` should be displayed.
+
+The Boxer class has some skeleton methods you can use to get started, and operates on the output of the CsvParser class.
+We've provided a skeleton BoxPrinter class that you can use to get started printing the output for a set of refill boxes.
 
 **Scheduling**
 

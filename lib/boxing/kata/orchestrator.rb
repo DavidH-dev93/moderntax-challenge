@@ -46,5 +46,3 @@ module Boxing
     end
   end
 end
-
-

@@ -80,14 +80,14 @@ Example for a starter box:
 STARTER BOX
 2 green brushes
 2 green replacement head
-Schedule: 2018-01-01
+Schedule: 2022-01-01
 ```
 
 Example for a refill box:
 ```
 REFILL BOX
 1 pink replacement head
-Schedule: 2018-04-01, 2018-06-30, 2018-09-28, 2018-12-27
+Schedule: 2022-04-01, 2022-06-30, 2022-09-28, 2022-12-27
 ```
 
 **Mail Class**
@@ -103,7 +103,7 @@ Example for a starter box:
 STARTER BOX
 2 green brushes
 2 green replacement head
-Schedule: 2018-01-01
+Schedule: 2022-01-01
 Mail class: priority
 ```
 
@@ -111,7 +111,7 @@ Example for a refill box:
 ```
 REFILL BOX
 1 pink replacement head
-Schedule: 2018-04-01, 2018-06-30, 2018-09-28, 2018-12-27
+Schedule: 2022-04-01, 2022-06-30, 2022-09-28, 2022-12-27
 Mail class: first
 ```
 
@@ -129,7 +129,7 @@ STARTER BOX
 1 pink brush
 1 pink replacement head
 1 paste kit
-Schedule: 2018-01-01
+Schedule: 2022-01-01
 Mail class: priority
 ```
 
@@ -138,7 +138,7 @@ Example for a refill box:
 REFILL BOX
 1 pink replacement head
 1 paste kit
-Schedule: 2018-04-01, 2018-06-30, 2018-09-28, 2018-12-27
+Schedule: 2022-04-01, 2022-06-30, 2022-09-28, 2022-12-27
 Mail class: first
 ```
 **
